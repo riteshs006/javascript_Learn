@@ -19,17 +19,16 @@
             border-radius: 10px;
             width: 200px;
             height: 100px;
-            margin: 30px;
-
+            margin: 5px;
         }
     </style>
 </head>
 <body>
     <h1 >Color Flipper </h1>
-    <button id = "Red"> RED </button>
-    <button id = "Green"> GREEN </button>
-    <button id = "Black"> BLACK</button>
-    <button id = "Random"> RANDOM </button>
+    <button id = "Red" onclick="setColor('red')"> RED </button>
+    <button id = "Green" onclick="setColor('green')"> GREEN </button>
+    <button id = "Black" onclick="setColor('black')"> BLACK</button>
+    <button onclick="randomColor()"> RANDOM </button>
     <script src="index.js"></script>
 </body>
 </html>
